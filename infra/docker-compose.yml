@@ -1,0 +1,8 @@
+version: '2'
+services:
+  hello:
+    extends:
+      file: common.yml
+      service: hello
+    ports:
+      - "58080:8080"
